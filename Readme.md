@@ -1,14 +1,15 @@
 # Division2 Player Stats BOT
 Host it yourself 
 
-Uses tracker.gg public Division2 API to grab data
+Uses tracker.gg to pull data
 -
  - ``
-Run pip3 install -r requirements.txt
+Run pip install -r requirements.txt
 ``
 
  - ``
-Edit main.py and replace {trackergg_api_key} and {botToken} with your credentials
+edit config.json 
 ``
 
- - ``python3 main.py``
+ - ``python3 main.py / start.bat``
+ - ``if you wish to deploy on linux, you will need the linux chrome drivers``
